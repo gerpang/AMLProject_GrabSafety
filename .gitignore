@@ -103,5 +103,6 @@ venv.bak/
 # mypy
 .mypy_cache/
 
+# do not upload datasets
 /data
-
+.DS_Store
