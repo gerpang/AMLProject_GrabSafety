@@ -1,7 +1,11 @@
 ## Data Prep Steps
 As performed in `1DataPrep.ipynb`. 
+
 0.  Load data from separate files and append to form 1 main file. 
-1.	Remove Duplicate labels
+1.	Remove Duplicate labels. 
+
+For the next section it will be useful the data is sorted. Hence we will sort the data by seconds and bookingID. 
+
 2.	Remove Inaccurate records, i.e.:
     - second >= 10000 (more than 2 hours long trip, unlikely in SG. Drill down also shows that these high numbers are not continuous with their preceding 'correct' records.)
     - Speed < 0 (physically impossible)
