@@ -2,16 +2,20 @@
 
 ## Project Structure 
 1. docus folder
-    - For documentation such as this `readme.md`, `howto.md` 
-    - For cleaning documentation/reports? 
-2. notebooks
-    - to store out jupyter notebooks 
-3. `.gitignore` 
+    - For documentation on `howto.md` connect to the project folder on github etc 
+    - For documentation/reports
+2. data folder 
+    - To store your data - PLEASE name it correctly! else it will be pushed to Gh and we really don't want that
+3. scripts folder
+    - To store the actual code.
+4. models folder
+    - To store pickled models/weights.
+5. notebooks
+    - to store our jupyter notebooks 
+6. `.gitignore` 
     -  list of dir contents to be ignored when uploading to git.
     - Probably want to exclude our `.docx` and `.pptx` files later on; or just store them separately.
-4. `requirements.txt` - list of packages that are used in this proj
-5. data folder 
-    - To store your data - PLEASE name it correctly! else it will be pushed to Gh and we really don't want that
+7. `requirements.txt` - list of packages that are used in this proj
 
 ## Project Status
 - [x] Cleaning Data/ EDA + Document steps
