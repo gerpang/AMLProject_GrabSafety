@@ -14,6 +14,7 @@ In command line prompt: <br>
     $ git config --global user.name your_name
     $ git config --global user.email your_email
 ```
+**Important:** Make sure that you have `nbdime` installed. This will enable version control of jupyter notebooks easier. You can read about it [here](https://nbdime.readthedocs.io/en/latest/). Use `pip install nbdime` and then `nbdime config-git --enable --global` to set up.<br>
 
 ### Create a local repository 
 Clone the files to your own local drive. In your command line prompt/terminal: `cd` (change directories) to the place you want to store the repository as a new folder: <br>
