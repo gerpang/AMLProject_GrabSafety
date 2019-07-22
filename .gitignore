@@ -69,9 +69,10 @@ venv.bak/
 /site
 
 # do not upload datasets / sch reports
-/data/
+# /data/
 *.csv
 *.pkl
+*.xlsx
 .vscode
 
 .DS_Store
